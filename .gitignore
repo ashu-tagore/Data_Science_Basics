@@ -1,0 +1,62 @@
+# Virtual Environments
+pandas_env/  # <-- Your specific environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Data files - Keep your repository light
+*.csv
+*.csv.gz
+*.data
+*.feather
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.pickle
+*.xlsx
+*.db
+*.sqlite
+
+# Data directories
+data/
+data_local/
+raw_data/
+processed_data/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project outputs and secrets
+output/
+models/
+secrets.py
+.env
+.config
+*.log
+
+01_Pandas_Basics.ipynb
