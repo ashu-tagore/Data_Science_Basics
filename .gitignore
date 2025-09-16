@@ -58,5 +58,3 @@ secrets.py
 .env
 .config
 *.log
-
-01_Pandas_Basics.ipynb
